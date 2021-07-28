@@ -1,0 +1,54 @@
+.compo1{
+position: absolute;
+width: 60%;
+height: 40%;
+left:300px;
+top: 550px;
+background-color: white;
+border-radius: 10px;
+}
+.right{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    border-right: 1px solid black;
+    }
+img{
+    position: absolute;
+    width: 100%;
+    height:50%;
+    bottom: 0px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.right p{
+text-align:center;
+position: absolute;
+top:30px;
+left: 25px;
+font-family:Brush Script MT, Brush Script Std, cursive;
+color:burlywood;
+font-size: 20px;
+font-weight: bold;
+
+}
+
+.left{
+
+position: absolute;
+width: 60%;
+height: 100%; 
+right: 0px;  
+border-left:1px solid black;
+
+}
+ .left p{
+     position: absolute;
+     width: 80%;
+     padding: 40px;
+     box-sizing: border-box;
+     text-align: center;
+
+ }

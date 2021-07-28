@@ -1,0 +1,32 @@
+<div class="compo1">
+
+    <div class="right">
+       <p>
+          offrir un livre
+            <br>
+            est le souverain remède 
+             <br>
+            contre les dégoûts de la vie.”
+        </p>
+        <img [src]="cheminImage">
+        
+    </div>
+       
+    <div class="left">
+        <form (ngSubmit)="onSubmit()" [formGroup]='OfrirForm' enctype="multipart/form-data">
+
+            <input type="text" name="nomLivre" placeholder="Le nom de livre"  formControlName="nomLivre">
+            <div class="alert alert-danger aler" *ngIf="OfrirForm.get('nomLivre').hasError('required') && OfrirForm.get('nomLivre').touched">
+               veillez entrez le nom du pdf c'est obligatoire.
+            </div>
+            <input type="text"name="nomAuteur" placeholder="Le nom de l'Auteur"  formControlName="nomAuteur">
+            <div class="alert alert-danger aler" *ngIf="OfrirForm.get('nomAuteur').hasError('required') && OfrirForm.get('nomAuteur').touched">
+                veillez entrez le nom de l'auteur c'est obligatoire.
+             </div>
+            <input type="file" name="LeLivre"  (change)="Uploads($event)"> 
+            <button name="but" type="submit">Offrir</button>
+
+        </form>    
+    </div>
+   
+   </div>

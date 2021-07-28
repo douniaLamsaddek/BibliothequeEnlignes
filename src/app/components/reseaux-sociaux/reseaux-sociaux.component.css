@@ -1,0 +1,11 @@
+.fa{
+    font-size: 33px;
+    margin: 15px;
+    color:black;
+}
+.resaux{
+    display: flex;
+    position:absolute;
+    bottom:0px;
+    
+}

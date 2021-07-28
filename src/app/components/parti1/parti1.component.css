@@ -1,0 +1,53 @@
+.parti1{
+position: absolute;
+background-color: cadetblue;
+width: 20%;
+height: 100%;
+
+}
+
+h1{
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    top:10px;
+    left: 25px;
+}
+h1 span{
+    color: burlywood;
+    font-size: 26px;
+}
+a{
+   color: black;
+   text-decoration: none;
+
+}
+
+
+ul{
+    list-style: none;
+    position: relative;
+    top: 50px;
+    left:-25px;
+
+}
+ul li{
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    opacity: 0.9;
+    text-align: center;
+    position: relative;
+    height:45px;
+    margin:10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+ul li a{
+
+    color: white;
+
+}

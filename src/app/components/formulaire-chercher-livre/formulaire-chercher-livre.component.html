@@ -1,0 +1,33 @@
+<div class="compo1">
+
+    <div class="right">
+       <p>
+           Une heure de lecture
+            <br>
+            est le souverain remède 
+             <br>
+            contre les dégoûts de la vie.”
+        </p>
+        <img [src]="cheminImage">
+        
+    </div>
+       
+    <div class="left">
+        <form (ngSubmit)="onSubmit()" [formGroup]='OfrirForm' enctype="multipart/form-data">
+
+            <input type="text" name="nomLivre" placeholder="Le nom de livre" formControlName="nomLivre">
+            <input type="text"name="nomAuteur" placeholder="Le nom de l'Auteur" formControlName="nomAuteur">
+            <button type="submit">chercher</button>
+
+        </form>    
+    </div>
+   
+   </div>
+
+   <div class="LivreRecherche">
+    <div *ngFor="let livre of livres" class="livre">
+        <h4> {{livre.Nom_Livre}}</h4>
+        <p> {{livre.Auteur_Livre}}</p>
+        <button class="btn btn-info">LIRE</button>
+    </div>
+    </div>

@@ -1,0 +1,40 @@
+.compo1{
+    position: absolute;
+    width: 80%;
+    height: 40%;
+    left:150px;
+    top: 650px;
+    }
+.livre{
+        background-color: white;
+        color: black;
+        height:30%;
+        width: 25%;
+        box-sizing: border-box;
+        margin:30px;
+        padding: 10px;
+        border-radius: 10px;
+        float: left;
+  
+}
+.pageSuivante{
+
+        clear: both;
+        margin-left:400px;
+        margin-top:300px;
+}
+.livre h4{
+    font-weight: bolder;
+    word-wrap: break-word;   
+}
+    .livre button{
+        
+      background-color: burlywood;
+
+    }
+    .livre a{
+        background-color: burlywood;
+        color: burlywood;
+    }
+
+

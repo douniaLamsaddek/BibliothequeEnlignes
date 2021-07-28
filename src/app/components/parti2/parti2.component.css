@@ -1,0 +1,48 @@
+form{
+    position: relative;
+    background-color: transparent;
+    margin-left: 550px;
+    top: 20px;
+}
+
+p{
+color:white;
+text-align: center;
+font-weight: bold;
+font-size: 50px;
+position: relative;
+top: 200px;
+text-shadow: 1px 1px 2px red, 0 0 25px red, 0 0 5px yellow;
+
+}
+@keyframes example {
+    0% {top: 0px;}
+    25% {top: -100px;}
+    50% {top: 0px;}
+    75% {top: 100px;}
+    100% {top: 0px;}
+
+
+}
+  
+.partie2 a{
+    color:rgb(238, 186, 119);
+    text-decoration: none;
+    font-size: 50px;
+    animation-name: example;
+    animation-duration: 5s;
+    position: relative;
+    top: 0px;
+    animation-iteration-count:infinite;
+}
+
+.center{
+    position: absolute;
+    background-image: url("src/assets/img/bib.jpg");
+    width: 80%;
+    height: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    left: 245px;
+}
